@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(255, 228, 196, 0.867);
+}
+.container{
+    display: flex;
+        height: 500px;
+    background: url(/image/WhatsApp\ Image\ 2023-10-01\ at\ 1.17.28\ PM.jpeg)no-repeat center center/cover;
+}
+.hea{
+    margin: 20px 20px;
+    color: white;  
+}
+.hpa{
+    margin: 20px 50px;
+    font-size: 20px;
+    color: white;
+}
+.para{
+    margin: 20px 0px;
+}
+.btn{
+    margin: 30px 50px;
+    padding: 15px 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid rgb(236, 195, 119);
+    color: rgb(230, 180, 115);
+    }
+.btn:hover{
+    background-color: rgb(230, 180, 115); 
+    color: white;
+}
+.hj{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+.ig img{
+    height: 240px;
+    border-radius: 10px;
+    width: 240px;
+    /* border: 2px solid black; */
+}
+.ig{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(249 249 216);
+    
+    /* border: 2px solid black; */
+}
+.af{
+    display: flex;
+}
+.ty{
+    margin-left:118px ;
+}
+.ku{
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    width: 38px;
+    height: 30px;
+    text-align: center;
+    padding-top: 11px;
+    background-color: rgb(201, 199, 199);
+    color: black;
+}
+.as{
+    text-align: center;
+    margin-top: 10px;
+}
+.bt{
+    margin: 30px 50px;
+    padding: 15px 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(234, 170, 86);
+    border: 1px solid rgb(236, 195, 119);
+    color:white;
+    text-align: center;
+}
+.btndiv{
+    text-align: center;
+}
+.bt:hover{
+    background-color:white;
+    color:chocolate;
+}
+.spn{
+    color:chocolate;
+}
+
+.xy{
+    display: flex;
+}
+.lef img{
+    height: 300px;
+    width: 600px;
+   position: relative;
+   
+}
+
+.xy{
+    margin: 20px;
+}
+.kh{
+    margin: 50px 30px;
+}
+.heo{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.parg{
+    font-size:20px ;
+    margin-bottom: 35px;
+}
+.btl{
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: rgb(234, 170, 86);
+    border: 1px solid rgb(236, 195, 119);
+    color:white;
+}
+.btl:hover{
+    background-color:white;
+    color:chocolate;
+}
+.sec .lef::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: #160e0b;
+}
+.sec{
+    /* display: block; */
+}
+.lef{
+    position: relative;
+    padding: 25px 0 0 25px;
+}
+.htf{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.left1{
+    height: 410px;
+    width: 700px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    background: url(/image/p0.jpeg)no-repeat center center;
+}
+.right1 .yuo{
+    height: 195px;
+    width: 700px;
+    margin: 10px;
+    /* border: 2px solid black; */
+    background: url(/image/p1.jpeg)no-repeat center center;
+}
+.right1 .toi{
+    margin: 10px;
+    height: 195px;
+    width: 700px;
+    /* border: 2px solid black; */
+    background: url(/image/p2.jpeg)no-repeat center center;
+}
+.rty{
+    margin: 30px 20px;
+    font-size: 30px;
+}
+.io{
+    margin: 0px 28px;
+    padding: 7px 33px;
+    font-size: 20px;
+    background:none;
+    border: 1px solid chocolate;
+    color:chocolate;
+}
+.io:hover{
+    background-color: rgba(202, 59, 12, 0.876);
+    color:white;
+}
+.rtf{
+    justify-content: flex-end;
+    align-items: flex-start;
+    -webkit-box-align: start;
+    -webkit-box-pack: end;
+    flex-direction: column;
+}
+
+
+.abcd{
+    display: flex;
+    justify-content: center; 
+}
+.foot li{
+    list-style: none;
+}
+.kjk{
+    padding:10px 70px;
+}
+.fgh{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color:#484545;
+}
+.foot{
+    background-color:rgb(41, 40, 40);
+    color: white;
+}
+.con2{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+.nm{
+    text-align: center;
+    margin-top: 10px;
+}
+.btnss{
+    padding: 10px 30px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 20px;
+}
+.btnss:hover{
+    color: white;
+    background-color: black;
+}
+.lef2{
+    /* border: 2px solid black; */
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+.rig2{
+    /* border: 2px solid black; */
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+.parss{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.lef2 img{
+    height: 400px;
+    width: 575px;
+}
+.rig2 img{
+    height: 400px;
+    width: 570px; 
+}
+.heass{
+    margin-top: 20px;
+}
+.rth{
+    position: absolute;
+    left: 25px;
+    bottom: 165px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #160e0b;
+    margin: 0;
+    text-align: center;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+}
+.bhas{
+    display: flex;
+}
+.igss img{
+    width: 50px;
+    height: 50px;
+    margin: 2px 10px;
+}
+.akl{
+    margin: 0px 10px;
+}
+.search{
+    display: flex;
+}
+.socialmedia{
+    display: flex;
+    margin-left: 93px;
+}
+.socialbutton{
+    padding: 10px 10px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid rgb(241, 181, 42);
+    background-color: white;
+    margin: 20px 5px;
+    height: 60px;
+    width: 60px;
+    background: none;
+    color: white;
+}
+.socialbutton:hover{
+    background: none;
+    color: rgb(240, 126, 19);
+    border: 2px solid rgb(225, 99, 9);
+}
+.ghj{
+    width: 720px;
+    margin-left: 137px;
+    height: 50px;
+    font-size: 18px;
+    padding: 0px 10px;
+    /* border-radius: 20px; */
+    border: 2px solid chocolate;
+    margin-top:21px;
+    margin-right: -4px;
+}
+.btn-aarrow{
+    padding: 10px 10px;
+    font-size: 17px;
+    color: white;
+    border: 2px solid #edb12afc;
+    background-color: rgb(246, 142, 45);
+    margin-top: 20px;
+    height: 55px;
+    width: 56px;
+}
+.btn-aarrow:hover{
+    background-color: black;
+    color:rgb(246, 142, 45) ;
+}
