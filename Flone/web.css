@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.lis{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+}
+.lis a{
+    text-decoration: none;
+    margin:20px;
+    padding: 10px;
+    color: black;
+}
+.flo{
+    margin-right: 372px;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.container{
+    text-align: center;
+    background: url(/PROJECT/pics/kids-3362198_1280.jpg)no-repeat center center/cover;
+    height: 400px;
+    padding-top: 90px;
+    color: white;
+}
+.con p {
+padding: 20px;  
+    font-size: 18px;
+}
+.con{
+    margin-left: 456px;
+}
+.bt{
+    padding: 30px;
+}
+.con h3{
+    font-size: 30px;
+}
+.btn{
+    padding: 20px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn:hover{
+    background-color: rgb(144, 202, 183);
+    cursor: pointer;
+}
+.sec{
+    display: flex; 
+    background-color: rgb(144, 202, 183);
+}
+.ite img{
+    height: 40px;
+    width: 40px;
+    border-radius: 200px;
+    border: 2px solid rgb(117, 58, 58);
+}
+.ite{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 50px 20px;
+    padding: 10px 30px;
+    /* background-color: aquamarine; */
+}
+.abc{
+    display: flex;
+}
+.pqr img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    /* border:2px solid black; */
+}
+.rty{
+    display: flex;
+   
+}
+.xyz{
+    display: flex;
+}
+.pqr{
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.nbn{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+.sd{
+    margin-left: 70px;
+}
+.lk{
+    margin-left: 130px;
+}
+.kj{
+    margin-left: 58px;
+}
+.lp{
+    margin-left: 107px;
+}
+.oj{
+    margin-left: 120px;
+}
+.lt{
+    margin-left: 160px;
+}
+.bj{
+    margin-left: 144px;
+}
+.btc{
+    margin-right: 189px;
+    padding: 20px;
+}
+.def{
+    padding: 0px 10px;
+}
+.pqr p{
+    width: 400px;
+    padding:0px 20px;
+    margin-bottom: 30px;
+    /* text-align: center;
+    padding: 10px 52px; */
+}
+.abcd{
+    display: flex;
+    justify-content: center; 
+}
+.foot li{
+    list-style: none;
+}
+.kjk{
+    padding:10px 70px;
+}
+.fgh{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color:#484545;
+}
+.foot{
+    background-color:rgb(41, 40, 40);
+    color: white;
+}
+.item a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
