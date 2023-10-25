@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(/img/plain-black-background-02fh7564l8qq4m6d.jpg) no-repeat center center/cover;
+    color: white !important;
+}
+
+.con{
+    text-align: center;
+    margin-top: 150px;
+}
+.con h1{
+    font-weight: 800;
+}
+.abs{
+    justify-content: center;
+    width: auto;
+}
+.les{
+    margin: 20px;
+    background-color: rgb(51, 49, 49);
+    padding: 20px;
+}
+.res{
+    margin: 20px;
+    background-color: rgb(51, 49, 49);
+    padding: 20px;
+}
+.ess{
+    background-color: aqua !important;
+    margin: 20px;
+}
+
+
+.skill{
+	width: 50%;
+	height: 10px;
+	background-color: #949090;
+
+}
+
+.skil p{
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.skill div{
+	width: 0;
+	height: 100%;
+	color:rgb(3, 3, 3);
+  text-align:right;
+  font-size:8px;
+  font-weight:900;
+	animation: fill 6s forwards;
+}
+
+@keyframes fill{
+	100%{
+		width: 100%;
+	}
+}
+
+.html{
+	background-color: #a3cada;
+	max-width: 90%;
+}
+
+.css{
+	background-color: #a3cada;
+	max-width: 85%;
+}
+
+.js{
+	background-color: #a3cada;
+	max-width: 70%;
+}
+
+.react{
+	background-color: #a3cada;
+	max-width: 65%;
+}
+.skil{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.conn{
+    text-align: center;
+}
+.uiu{
+    /* border:2px solid white; */
+    justify-content: center;
+}
+.yui{
+    /* border:2px solid white; */
+    margin: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 20%;
+    /* text-align: center; */
+    font-size: 20px;
+    padding-top: 30px;
+    background-color: #3d3b3ba6;
+}
+.headerText {
+    color: #fff;
+  }
+  .headerText h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    position: relative;
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?cs=srgb&dl=astronomy-astrophotography-colors-755726.jpg&fm=jpg) no-repeat center center/cover;
+  }
+  
+  .contact form {
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .contact .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    height: 50px;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  
+  .contact .form-control:focus,
+  .contact .form-control:hover {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    box-shadow: none;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+  }
+  
+  .contact label {
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  
+  .btnD1 {
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgb(151, 234, 240) !important;
+    border-radius: 50px;
+    padding: 15px 50px;
+    font-size: 1.15rem;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: 0.65s;
+  }
+  
+  .btnD1:hover {
+    background: #f7f7f7 !important;
+    color: #0c0c0c !important;
+  }
+  
+  .contact:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#000, transparent);
+  }
+  
+  .contact:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(360deg, #000, transparent);
+  }
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
