@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartKart</title>
+  
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/index.html">SmartKart</a>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/mobile.html">Mobiles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/laptop.html">Laptops</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/tab.html">Tabs</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accessories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/earbud.html">Earbuds</a>
+          <a class="dropdown-item" href="/Bluetooth.html">Bluetooth</a>
+          <!-- <a class="dropdown-item" href="#">Sound box</a> -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html">About</a>
+      </li>
+    </ul>
+  </div>
+  <div class="rig">
+    <a href="/login.html" class="btn btn-success">LogIn</a>
+    <a href="/signup.html" class="btn btn-danger">SignUp</a>
+  </div>
+</nav>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+   
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="/imges/8hXqMHtbddxGW33XPKfUNg-1200-80.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/imges/hero_intro__cww8m2vra4uq_large.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="/imges/maxresdefault.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+
+  <div class="container py-2">
+    <h1 class="text-center">New Arrivals</h1>
+    <div class="row main  row-cols-md-3 g-4 py-4">
+    </div>
+</div>
+
+<div class="container py-2">
+  <h1 class="text-center">New Clothes</h1>
+  <div class="row main1  row-cols-md-3 g-4 py-4">
+  </div>
+</div>
+
+<footer class="foot">
+    <div class="abcd">
+    <div class="kjk"><h3>Open Library</h3>
+    <ul>
+        <li>Vision</li>
+        <li>Volunteer</li>
+        <li>Partner With Us</li>
+        <li>Careers</li>
+        <li>Blog</li>
+        <li>Terms of Services</li>
+        <li>Donate</li>
+    </ul>
+    </div>
+    <div class="kjk"><h3>Discover</h3>
+      <ul>
+        <li>Home</li>
+        <li>Books</li>
+        <li>Authors</li>
+        <li>Subjects</li>
+        <li>Collections</li>
+        <li>Advanced Search</li>
+        <li>Return to Top</li>
+      </ul>
+    </div>
+    <div class="kjk"><h3>Develop</h3>
+      <ul>
+        <li>Developer Center</li>
+        <li>API Documentation</li>
+        <li>Bulk Data Dumps</li>
+        <li>Writing Bots</li>
+        <li>Add a Books</li>
+      </ul>
+    </div>
+    <div class="kjk">
+        <h3>Help</h3>
+        <ul>
+          <li>Help Center</li>
+          <li>Report A Problem</li>
+          <li>Suggesting Edits</li>
+        </ul>
+      </div>
+  </div>
+    <p class="fgh">&copy;Copyright www.Flone.com All Rights Reserved</p>
+  </footer>
+  <script>
+    $.ajax({
+        url:'https://fakestoreapi.com/products/category/jewelery'
+    }).done(function(data){
+        for(let i=0; i<data.length;i++){
+            const product=data[i];
+            $(".main").append(`<div class="col">
+            <div class="card">
+                <img src="${product.image}" class="rounded mx-auto d-block p-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${product.title}</h5>
+                    <p class="card-text">${product.rating.rate}</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>$${product.price}</h3>
+                    <button class="btn btn-warning">Buy Now</button>
+                </div>
+            </div>
+        </div>`);
+        }
+    })
+
+    
+    $.ajax({
+        url:'https://fakestoreapi.com/products'
+    }).done(function(data){
+        for(let i=0; i<data.length;i++){
+            const product=data[i];
+            $(".main1").append(`<div class="col">
+            <div class="card">
+                <img src="${product.image}" class="rounded mx-auto d-block p-3" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${product.title}</h5>
+                    <p class="card-text">${product.rating.rate}</p>
+                </div>
+                <div class="mb-5 d-flex justify-content-around">
+                    <h3>$${product.price}</h3>
+                    <button class="btn btn-warning">Buy Now</button>
+                </div>
+            </div>
+        </div>`);
+        }
+    })
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

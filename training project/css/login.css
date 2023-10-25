@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: blue; */
+    background: url(/imges/love-g0828ddccf_1920.jpg)no-repeat center center/cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(231 198 165 / 24%);
+    
+    margin: 110px 80px;
+}
+.left img{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    margin-right: 200px;
+}
+.right{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 400px;  
+    height: 400px;
+    /* margin-left: 40px; */
+}
+.head h3{
+    font-size: 30px;
+    padding: 30px;
+}
+.eml{
+    padding: 20px 24px;
+    position: relative;
+}
+.bt{
+    padding: 30px;
+}
+.btn{
+    width: 310px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: none;
+}
+.con input{
+    padding: 15px 20px;
+    width: 280px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: rgb(247, 223, 223);
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.logg{
+    position: absolute;
+    top: 42px;
+    padding: 2px 5px;
+}
+.log{
+    position: absolute;
+    top: 20px;
+    padding: 2px 5px;
+}
+.pass{
+    position: relative;
+}
+.bt a{
+    text-decoration: none;
+    font-size: 18px;
+    color: brown;
+    font-weight: 800;
+}
+
+
+
+
+
